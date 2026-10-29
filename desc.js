@@ -62,6 +62,11 @@ const delegationJOJ = {
 //const ps = delegationJOJ.pays
 //const nbParticipant = delegationJOJ.nbParticipant
 const {nbParticipant,pays:ps} = delegationJOJ
-console.log(ps)
-console.log(nbParticipant)
-console.log(delegationJOJ)
+//console.log(ps)
+//console.log(nbParticipant)
+//console.log(delegationJOJ)
+// spread 
+const tableau1 = [45,12,40]
+const tableau2 = [46,1,90]
+const tableau3 = [-1,...tableau1,...tableau2,100]//degroupement
+console.log(tableau3)
