@@ -18,7 +18,7 @@ const users = {
     email:"msk@gmail.com"
 }
 const {password,id,...newUser} = users
-console.log(newUser)
+//console.log(newUser)
 //const pass = users.password
 //const login = users.login
 //const {password:pass,login,email="contact@massekaacademy.com"} = users
@@ -52,3 +52,16 @@ const et1 = {id:100,nom:"Diop"}
 const et2 = {id:1,nom:"Ba",age:15}
 const etuUnion = {...et1,...et2}
 //console.log(etuUnion)
+//Exemple 2 Destructuring
+const delegationJOJ = {
+    id:1,
+    nomChef:"Diop",
+    nbParticipant:20,
+    pays:"Senegale"
+}
+//const ps = delegationJOJ.pays
+//const nbParticipant = delegationJOJ.nbParticipant
+const {nbParticipant,pays:ps} = delegationJOJ
+console.log(ps)
+console.log(nbParticipant)
+console.log(delegationJOJ)
