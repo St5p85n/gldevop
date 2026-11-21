@@ -1,0 +1,14 @@
+.cRg{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+
+}
+#dtPlat{
+    border: none;
+    background-color: blue;
+    color: whitesmoke;
+    padding: 8px 18px;
+    margin-left: 10px;
+    border-radius: 7px;
+}
